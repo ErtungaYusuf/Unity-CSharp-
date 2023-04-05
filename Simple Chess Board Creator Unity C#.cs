@@ -8,7 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
 
 
     public GameObject[,] squares = new GameObject[9, 9];
-    Color32 blackSquaresColor = new Color32(10, 10, 10, 255);
+    Color32 blackSquaresColor = new Color32(10, 10, 10, 255);// it is important that the white and black squares are not exactly white or black so that the pieces can be seen
     Color32 whiteSquaresColor = new Color32(245, 245, 245, 255);
 
     bool blackAndWhiteBoardCreationBool = false;
