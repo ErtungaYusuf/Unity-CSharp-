@@ -13,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     bool blackAndWhiteBoardCreationBool = false;
 
-    void CreatBoard()
+    public void CreatBoard()
     {
         for (int i = 1; i < 9; i++)
         {
